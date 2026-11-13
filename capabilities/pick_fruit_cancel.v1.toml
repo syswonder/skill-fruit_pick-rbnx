@@ -1,0 +1,9 @@
+[contract]
+id = "robonix/skill/fruit_pick/pick_fruit/cancel"
+version = "1"
+kind = "skill"
+idl = "fruit_pick/srv/CancelPickFruit.srv"
+description = "Stop issuing commands for one pick_fruit run."
+
+[mode]
+type = "rpc"

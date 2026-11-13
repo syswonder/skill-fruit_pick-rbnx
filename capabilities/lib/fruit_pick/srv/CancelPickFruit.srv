@@ -1,0 +1,6 @@
+# robonix/skill/fruit_pick/pick_fruit/cancel: stop issuing further commands
+# for one run. The arm finishes its current motion; the gripper is left as is.
+string run_id
+---
+bool accepted
+string detail

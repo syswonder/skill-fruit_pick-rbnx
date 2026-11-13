@@ -1,0 +1,9 @@
+[contract]
+id = "robonix/skill/fruit_pick/pick_fruit/status"
+version = "1"
+kind = "skill"
+idl = "fruit_pick/srv/GetPickFruitStatus.srv"
+description = "State of one pick_fruit run."
+
+[mode]
+type = "rpc"

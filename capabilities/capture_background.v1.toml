@@ -1,0 +1,9 @@
+[contract]
+id = "robonix/skill/fruit_pick/capture_background"
+version = "1"
+kind = "skill"
+idl = "fruit_pick/srv/CaptureBackground.srv"
+description = "Photograph the empty table from the home pose as the reference that fruit is found against."
+
+[mode]
+type = "rpc"

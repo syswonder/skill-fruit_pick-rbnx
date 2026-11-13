@@ -1,0 +1,9 @@
+[contract]
+id = "robonix/skill/fruit_pick/pick_fruit"
+version = "1"
+kind = "skill"
+idl = "fruit_pick/srv/PickFruit.srv"
+description = "Find the fruit nearest the middle of the camera view, pick it, release it at a named location or where it was, and return the arm home."
+
+[mode]
+type = "rpc"

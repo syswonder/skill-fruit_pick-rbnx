@@ -1,0 +1,5 @@
+# robonix/skill/fruit_pick/capture_background: move to home, open the jaws and
+# keep one frame of the empty table. Blocks until done; fails if the arm is
+# not near home or a pick_fruit run is active.
+---
+string detail

@@ -1,0 +1,7 @@
+# robonix/skill/fruit_pick/pick_fruit/status: state of one run.
+string run_id
+---
+# PENDING, RUNNING, SUCCEEDED, FAILED, CANCELED or TIMEOUT.
+string state
+# Current step, or the outcome once the run has ended.
+string detail

@@ -1,0 +1,33 @@
+manifestVersion: 1
+
+build: bash scripts/build.sh
+
+start: bash scripts/start.sh
+
+package:
+  name: robonix.skill.fruit_pick
+  version: 0.1.0
+  description: >-
+    Pick one fruit that a camera sees on a table with any arm, gripper and
+    camera that provide the standard primitive contracts, and release it at
+    a named location or where it was.
+  tags:
+    - skill
+    - robonix
+    - manipulation
+    - agriculture
+  maintainers:
+    - HeartLinked <lfyhl0907@gmail.com>
+  license: MulanPSL-2.0
+
+capabilities:
+  - name: robonix/skill/fruit_pick/pick_fruit
+    path: capabilities/pick_fruit.v1.toml
+  - name: robonix/skill/fruit_pick/pick_fruit/status
+    path: capabilities/pick_fruit_status.v1.toml
+  - name: robonix/skill/fruit_pick/pick_fruit/cancel
+    path: capabilities/pick_fruit_cancel.v1.toml
+  - name: robonix/skill/fruit_pick/capture_background
+    path: capabilities/capture_background.v1.toml
+
+depends: []

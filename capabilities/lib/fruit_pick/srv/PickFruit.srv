@@ -1,0 +1,9 @@
+# robonix/skill/fruit_pick/pick_fruit: start picking one fruit. Returns
+# immediately with a run_id; the Executor polls
+# robonix/skill/fruit_pick/pick_fruit/status until the run ends.
+# Configured location name to release the fruit at, e.g. basket; empty puts
+# it back where it was picked.
+string destination
+---
+string run_id
+string detail
